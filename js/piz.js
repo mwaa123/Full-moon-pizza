@@ -1,0 +1,1 @@
+$('.checkout').fadeOut(fadeTime);
