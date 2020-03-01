@@ -103,3 +103,52 @@ body {
   }
   
   
+  .submit {
+    background: #0B4F6C;
+  }
+  
+  
+  .submit:hover {
+    width: 25%;
+    font-size: 1.2em;
+    background: grey;
+    border-style: inset;
+    border-size: 5px;
+    border-color: grey;
+  }
+  
+  
+  .vegi-container {
+    border-style: inset;
+    border-width: 5px;
+    border-color: #145C9E;
+    width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  
+  @keyframes rainbow {
+      0% {
+        color: red;
+      } 
+  
+      25% {
+        color: black;
+      }
+    
+      50% {
+        color: red;
+      }
+    
+      75% {
+        color: black;
+      }
+    
+      100% {
+        color: red;
+      }
+      }
+  
+  
+  
