@@ -22,3 +22,30 @@ body {
   }
   
   
+  .crust-container {
+    border-width: 5px;
+    border-style: inset;
+    border-color: #145C9E;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-rows: 180px 260px;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+  }
+  
+  
+  .grid-hover:hover {
+    animation-name: rainbow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 150%;
+  }
+  
+  
