@@ -152,3 +152,82 @@ body {
   
   
   
+  
+  /************** MEDIA QUERIES *****************/
+  
+  /*--------TABLET VIEW-------*/
+  @media (max-width: 768px) {
+    .background {
+      width: 95%;
+    }
+    
+    .grid-container {
+      grid-template-rows: 180px 300px;
+    }
+    
+    .grid-hover:hover {
+    animation-name: rainbow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 120%;
+  }
+    
+    .crust-container {
+      width: 275px;
+    }
+    
+    .sauce-container {
+      width: 275px;
+    }
+
+    .meat-container {
+      width: 275px;
+    }
+    
+    .vegi-container {
+      width: 275px;
+    }
+    
+    .submit:hover {
+    width: 25%;
+    font-size: 1em;
+  }
+  }
+  
+  
+  
+  
+  
+  /*----------------LARGE PHONE VIEW-------------*/
+  @media (max-width: 425px) {
+    .grid-container {
+      grid-template-rows: 180px 300px;
+    }
+    
+    .crust-container {
+      width: 150px;
+    }
+    
+    .sauce-container {
+      width: 150px;
+    }
+    
+    .meat-container {
+      width: 150px;
+    }
+    
+    .vegi-container {
+      width: 150px;
+    }
+    
+    #special-instructions {
+      max-width: 300px;
+    }
+  }
+  
+  
+  
+  
+  /*--------------
+    }
+  }   */
