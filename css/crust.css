@@ -228,6 +228,69 @@ body {
   
   
   
-  /*--------------
+  /*------------------MEDIUM PHONE VIEW---------------*/
+  @media (max-width: 375px) {
+    .background {
+      width: 90%;
+    }
+    
+    .grid-container {
+      font-size: 0.7em;
+    }
+    
+    .crust-container {
+      width: 120px;
+    }
+    
+    .sauce-container {
+      width: 120px;
+    }
+    
+    .meat-container {
+      width: 120px;
+    }
+    
+    .vegi-container {
+      width: 120px;
+    }
+  }
+  
+  
+  
+  
+  /*------------------SMALL PHONE VIEW---------------*/
+  @media (max-width: 320px) {
+    .crust-container {
+      width: 105px;
+    }
+    
+    .sauce-container {
+      width: 105px;
+    }
+    
+    .meat-container {
+      width: 105px;
+    }
+    
+    .vegi-container {
+      width: 105px;
+    }
+    
+    .grid-container {
+      font-size: 0.7em;
+    }
+    
+    #special-instructions {
+      max-width: 250px;
+    }
+  }
+  
+  
+  
+  
+  /*------------------PERSONAL PORTFOLIO LINK PHONE VIEW---------------*/
+  /* @media (max-width: 350px) {
+    #special-instructions {
+      max-width: 250px;
     }
   }   */
