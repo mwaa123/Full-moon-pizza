@@ -186,11 +186,7 @@ body {
     .sauce-container {
       width: 275px;
     }
-    
-    #special-instructions {
-      max-width: 445px;
-    }
-    
+
     .meat-container {
       width: 275px;
     }
@@ -300,8 +296,8 @@ body {
   
   
   /*------------------PERSONAL PORTFOLIO LINK PHONE VIEW---------------*/
-  @media (max-width: 350px) {
+  /* @media (max-width: 350px) {
     #special-instructions {
       max-width: 250px;
     }
-  }  
+  }   */
