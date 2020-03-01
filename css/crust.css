@@ -49,3 +49,34 @@ body {
   }
   
   
+  .hrclass {
+    width: 40%;
+    border: inset;
+    border-width: 2px;
+  }
+  
+  
+  .hover:hover {
+    border-color: red;
+    border-style: inset;
+    border-size: 5px;
+    color: red;
+    margin: auto;
+    padding: auto;
+    animation-name: rainbow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  .meat-container {
+    border-style: inset;
+    border-width: 5px;
+    border-color: #145C9E;
+    width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  
+  }   */
