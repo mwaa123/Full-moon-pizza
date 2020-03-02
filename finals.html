@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body style="background-image: url(/home/ruth/full-moon-pizza/gallery/CO.jpg);">          
+           <div id="page"> 
+            <div class="tabs">
+                  <form>
+                      <fieldset>
+                          <legend style="color: blanchedalmond;" class="legend">SIZE</legend>
+                          <label style="color: blanchedalmond;">
+                              <input type="radio" name="size" id="small" value="Small" checked>Small (8"): ksh 500.00<br/>
+                              <input type="radio" name="size" id="medium" value="Medium">Medium (12"): ksh1000.00<br/>
+                              <input type="radio" name="size" id="large" value="Large">Large (16"): ksh 1500.00<br/>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend style="color: blanchedalmond;" class="legend">CRUSTY</legend>
+                          <label style="color: blanchedalmond;">
+                              <input type="radio" name="crust" id="glutenfree" value="Gluten Free" checked>Gluten-free<br/>
+                              <input type="radio" name="crust" id="deepdish" value="Deep dish">Deep-dish<br/>
+                              <input type="radio" name="crust" id="original" value="Original">Original Pan Crust<br/>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend style="color: blanchedalmond;" class="legend">MEAT</legend>
+                          <label style="color: blanchedalmond;">
+                              <input type="checkbox" name="meat" id="sausage" value="Sausage">Sausage: ksh 200.00<br/>
+                              <input type="checkbox" name="meat" id="pepperoni" value="Pepperoni">Pepperoni: ksh 150.00<br/>
+                              <input type="checkbox" name="meat" id="chicken" value="Chicken">Chicken: ksh 300.00<br/>
+                              <input type="checkbox" name="meat" id="ham" value="Ham">Ham: ksh 450.00<br/>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend  stclass="legend">Veggies</legend>
+                          <label style="color: blanchedalmond;">
+                              <input type="checkbox" name="veggie" id="greenpeppers" value="Green Peppers">Green Peppers:
+                              ksh 200.00<br/>
+                              <input type="checkbox" name="veggie" id="bananapeppers" value="Banana Peppers">Banana Peppers:
+                              ksh 300.00 <br/>
+                              <input type="checkbox" name="veggie" id="mushrooms" value="Mushrooms">Mushrooms: ksh 100.00<br/>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend class="legend" style="color: blanchedalmond;">Preview your order</legend>
+                          <label>
+                          <p id="OrderView"></p>
+                          </label>
+                      </fieldset>
+                  </form>
+                  <button type="submit" id="stepOne" style="color: blanchedalmond;">Submit</button>
+              </div>
+              <div id="deliveryInfo" class="divTab">
+                  <form>
+                      <fieldset>
+                          <legend style="color: blanchedalmond;" class="legend">Name</legend>
+                          <label style="color: blanchedalmond;">
+                              First name:<input type="text" name="names" id="firstname" required><br/>
+                              Last name:<input type="text" name="names" id="lastname" required><br/>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend style="color: blanchedalmond;" class="legend">CONTACT INFO FOR DELIVERY</legend>
+                          <label style="color: blanchedalmond;">
+                              Phone Number: <input type="tel" name="names" id="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                                   required><br/>
+                              Street Address: <input type="text" name="names" id="streetaddress" required><br/>
+                              City: <input type="text" name="names" id="city" required><br/>
+                              State: <input type="text" name="names" id="state" required><br/>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend style="color: blanchedalmond;">CONFIRM YOUR INFO</legend>
+                          <label>
+                              <p id="contactInfo"></p>
+                          </label>
+                      </fieldset>                  </form>
+                  <button type="submit" id="stepTwo">Submit</button>              </div>
+              <div id="summary" class="divTab">
+                  <form>
+                      <fieldset style="color: blanchedalmond;">
+                          <legend class="legend">SUMMARY</legend>
+                          <label>
+                              <p id="infoSummary"></p>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend style="color: blanchedalmond;" class="legend">order Summary</legend>
+                          <label>
+                              <p id="mealSummary"></p>
+                          </label>
+                      </fieldset>
+                  </form>
+              </div>          </div>
+          </div>     
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+          <script src="final.js" ></script>
+</body>
+</html>
