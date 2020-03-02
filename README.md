@@ -21,4 +21,4 @@ ruthwanjiramugo@gmail.com
 ### live link
 https://github.com/mwaa123/full-moon-pizza
 ### License
-[LICENCE.md](LICENCE).
+[LICENCE](/license/LICENSE.md).
