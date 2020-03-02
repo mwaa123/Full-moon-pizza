@@ -7,8 +7,11 @@ h1{
     text-align: center;
     position: initial;
 }
+h2{
+  font-family: Trade Winds ;
+}
 body{
- background-image: url(/home/ruth/full-moon-pizza/gallery/SHI.gif);
+ background-image: url("../gallery/SHI.gif");
 }
 .link{
     color: green;
